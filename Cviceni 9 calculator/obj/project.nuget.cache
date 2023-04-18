@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BxiI/6d8haMz8Aox4uyJ4VOoJRUjj57avzq9SxJHgzxVR/2lFZsOrXCL9IY+UsV+HHuaAhCeFmvh9a0O/TTcvA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Oem\\Desktop\\Cviceni 9 calculator\\Cviceni 09 calculator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Oem\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Oem\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Oem\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Oem\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}

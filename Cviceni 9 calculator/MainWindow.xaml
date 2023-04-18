@@ -1,0 +1,50 @@
+﻿<Window x:Class="Cviceni_09_calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cviceni_09_calculator"
+        mc:Ignorable="d"
+        Title="Calculator" Height="475" Width="400">
+    <Grid Margin="0,0,0,0" Background="#FF474747">
+
+        <Button x:Name="button0" Content="0" HorizontalAlignment="Left" Height="42" Margin="84,382,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" Height="42" Margin="10,324,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" Height="42" Margin="84,324,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttom3" Content="3" HorizontalAlignment="Left" Height="42" Margin="161,324,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" Height="42" Margin="10,266,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="button5" Content="5" HorizontalAlignment="Left" Height="42" Margin="84,266,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" Height="42" Margin="161,266,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="button7" Content="7" HorizontalAlignment="Left" Height="42" Margin="10,208,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" Height="42" Margin="84,208,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" Height="42" Margin="161,208,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+
+        <Button x:Name="buttonMinus" Content="-" HorizontalAlignment="Left" Height="42" Margin="235,266,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonMultiplication" Content="*" HorizontalAlignment="Left" Height="42" Margin="235,208,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonMminus" Content="M-" HorizontalAlignment="Left" Height="42" Margin="161,150,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonDivide" Content="/" HorizontalAlignment="Left" Height="42" Margin="235,150,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonEquales" Content="=" HorizontalAlignment="Left" Height="42" Margin="235,382,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonPlus" Content="+" HorizontalAlignment="Left" Height="42" Margin="235,324,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+
+        <Button x:Name="negative" Content="+/-" HorizontalAlignment="Left" Height="42" Margin="10,382,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonDot" Content="," HorizontalAlignment="Left" Height="42" Margin="161,382,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+
+        <Button x:Name="buttonMS" Content="MS" HorizontalAlignment="Left" Height="42" Margin="10,150,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonMplus" Content="M+" HorizontalAlignment="Left" Height="42" Margin="84,150,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonMC" Content="MC" HorizontalAlignment="Left" Height="42" Margin="10,93,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonMR" Content="MR" HorizontalAlignment="Left" Height="42" Margin="84,93,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+
+        <Button x:Name="buttonCE" Content="CE" HorizontalAlignment="Left" Height="42" Margin="308,93,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonC" Content="C" HorizontalAlignment="Left" Height="42" Margin="161,93,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonDelete1" Content="&lt;=" HorizontalAlignment="Left" Height="42" Margin="235,93,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+
+        <TextBox x:Name="Display" HorizontalAlignment="Left" Height="67" Margin="10,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="356"  Background="White" SelectionTextBrush="White">
+            <TextBox.BorderBrush>
+                <SolidColorBrush Color="Black" Opacity="1"/>
+            </TextBox.BorderBrush>
+        </TextBox>
+        <Button x:Name="buttonKC" Content="KC" HorizontalAlignment="Left" Height="42" Margin="308,150,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonSUM" Content="SUM" HorizontalAlignment="Left" Height="42" Margin="308,266,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+        <Button x:Name="buttonFactorial" Content="!" HorizontalAlignment="Left" Height="42" Margin="308,208,0,0" VerticalAlignment="Top" Width="58" Click="Button_Click"/>
+    </Grid>
+</Window>
